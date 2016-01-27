@@ -1,0 +1,355 @@
+* {
+        font-family: 'PT Sans', Arial, sans-serif;
+}
+
+.nav {
+	background-color: #252525;
+} 
+.nav a{
+	color: #ebebeb;
+}
+.nav li a {
+        border-bottom: 1px solid #ebebeb;
+        border-right: 1px solid #ebebeb;
+        
+    }
+
+.jumbotron {
+    height: 400px;
+    background: url(pics/computer.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    color: #ebebeb !important;
+	text-shadow: 2px 2px #252525;
+}
+
+.jumbotron p {
+    text-align: center;
+	font-size: 15px !important;
+    color: #ebebeb;
+	text-shadow: 2px 2px #252525;
+}
+
+.about_section {
+	background-color: #ebebeb;
+	margin-top: -30px;
+
+}
+.about_first, .about_second {
+	background-color: #5c8190;
+	color: #ebebeb;
+	margin-top: 20px;
+	text-align: center;
+}
+.about_second {
+	margin-bottom: 30px;
+}
+.about_first p:nth-child(2),
+.about_second p:nth-child(2) {
+	color: #7e3094;
+	font-weight: bold;
+	margin-top: 7px;
+}
+.skill_section h2{
+	margin-top: 0;
+}
+.skill_section p {
+	margin-top: 110px;
+}
+.skill_section {
+	height: 600px;
+	background-color: #5c8190;
+	background: linear-gradient(360deg, #07151d, #07151d 10%, #5c8190);
+	color: #ebebeb;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.skill_line1 {
+	width: 0%;
+    height: 2px;
+    box-sizing: border-box;
+    margin-top: 35px;
+    background-color: #ebebeb;  
+}
+.skill_line2 {
+	width: 30%;
+    height: 2px;
+    box-sizing: border-box;
+    margin-top: 35px;
+    background-color: #ebebeb;
+	
+}
+
+/*-------CONTACT--------*/
+.main_section {
+	background-color: #ebebeb;
+	height: 1140px;
+}
+.contact_section h1 {
+	color: #5c8190;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0px;
+	font-size: 30px;
+}
+
+.contact_section p{
+	color: #252525;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.contact_line1 {
+	width: 30%;
+    height: 2px;
+    box-sizing: border-box;
+    margin-top: 37px;
+    background-color: #5C8190;
+   
+}
+.contact_line2 {
+	width: 30%;
+    height: 2px;
+    box-sizing: border-box;
+    margin-top: 37px;
+    background-color: #5C8190;
+	margin-bottom: 40px;
+   
+}
+.form-horizontal .form-group {
+    margin: 0 !important;
+	
+}
+
+.form-group textarea {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font: 1em sans-serif;
+	resize: none;
+}
+.form-group button {
+	background-color: #92278e;
+	cursor: pointer;
+	color: #ebebeb;
+	font-size: 15px;
+}
+.form-group button:hover {
+	background-color: #701e6f;
+	color: #ebebeb;
+}
+
+.form-group button:active {
+	position: relative;
+	top: 1px;
+}
+.form-group input {
+	margin-top: 15px;
+	font: 1em sans-serif;
+}
+
+.info_section {
+	margin-top: 15px;
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	border: 2px solid #5c8190;
+	color: #5c8190;
+}
+
+address a {
+	color: #5c8190;
+	text-decoration: underline;
+}
+
+.info_section p:first-child {
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.logo_section figure {
+	display: inline-block;
+	margin-left: 0;
+	margin-right: 2%;
+}
+
+.logo_section {
+	margin: auto;
+	margin-top: 40px;
+	width: 170px; 
+
+}
+
+.footer_section {
+	background-color: #252525;
+	height: 60px;
+	text-align: center;
+	color: #ebebeb;
+}
+.footer_section p{
+	font-size: 12px;
+	float: left;
+	line-height: 40px;
+	margin-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 0;
+	
+}
+
+.top-button {
+	height: 50px;
+	width: 50px;
+	background-color: #92278e;
+	border-radius: 100%;
+	float: right;
+	margin-right: 5%;
+	margin-top: 5px;
+}
+
+.top-button img {
+	z-index: 1;
+	height: 25px;
+	width: 25px;
+	margin-top: 20%;
+}
+
+.top-button:hover {
+	background-color: #701e6f;
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+	.jumbotron {
+		height: 600px;
+	}
+	.jumbotron p {
+		font-size: 20px !important;
+	}
+	.about_first h2, .about_first p {
+		text-align: right;
+	}
+	.about_second h2, .about_second p {
+		text-align: left;
+	}
+	
+	.skill_section h2 {
+		margin-top: 20px;
+	}
+	.skill_section p {
+		margin-top: 90px;
+	}
+	
+	.skill_section img {
+		width: 500px;
+		height: 450px;
+	}
+	.contact_section h1 {
+	font-size: 35px;
+}
+}
+
+/* ----------- Retina Screens ----------- */
+
+@media only screen and (min-width: 1025px) {
+	.jumbotron {
+		height: 800px;
+	}
+	.jumbotron h1 {
+		margin-top: 100px;
+	}
+	.jumbotron p {
+		font-size: 27px !important;
+	}
+	.about_first {
+		margin-top: 60px;
+		margin-bottom: 20px;
+	}
+	.about_second {
+		margin-bottom: 70px;
+	}
+	.about_first h2 {
+		text-align: right;
+		padding-right: 2%;
+		font-size: 28px;
+	}
+	.about_first p {
+		text-align: justify;
+		margin-left: 0;
+		margin-right: 1px;
+		padding: 0 2% 0 2%;
+		display: inline-block;
+		float: right;
+		width: 50%;
+		margin-top: 0;
+		margin-bottom: 33px;
+		font-size: 17px;
+		}
+	.about_first p:nth-child(2) {
+		text-align: right;
+		margin-right: 0;
+		padding-right: 2%;
+		float: right; 
+	}
+	.about_second h2, .about_second p {
+		text-align: left;
+	}
+	.about_first img {
+		display: block;
+		height: 340px;
+		margin-top: -110px;
+		margin-left: 0;
+	}
+	.about_second h2 {
+		font-size: 32px;
+	}
+	.about_second h2,
+	.about_second p {
+		text-align: left;
+		margin-left: 0;
+		padding-left: 2%
+	}
+	.about_second p {
+		padding-right: 2%;
+		float: left;
+		margin-top: 0;
+		width: 50%;
+		margin-bottom: 33px;
+		margin-left: 1px;
+		font-size: 17px;
+	}
+	
+	.about_second img {
+		display: inline-block;
+		height: 300px;
+		margin-top: -90px;
+		margin-right: 1px;
+	}
+	.skill_section {
+		height: 800px;
+	}
+	.skill_section h2 {
+		margin-top: 20px;
+	}
+	
+	.skill_section p {
+		margin-top: 80px;
+	}
+	.skill_section img{
+		height: 500px;
+		width: 600px;
+	}
+	
+	/*-----CONTACT------*/
+	
+	.contact_section h1 {
+		font-size: 44px; }
+}

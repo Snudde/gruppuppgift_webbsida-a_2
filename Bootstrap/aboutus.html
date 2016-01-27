@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Duo Design - About</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="/gruppuppgift_webbsida/javascript.js">
+	<link href="/gruppuppgift_webbsida/A_2/Bootstrap/stylee.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+	<div id="Home-Page-Top"></div>
+	<header>
+		
+		<ul class="nav nav-pills nav-justified">
+			<li><a href="home.html">Home</a></li>
+			<li><a href="aboutus.html">About</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="contactus.html">Contact</a></li>
+		</ul>
+		</header>
+	
+	<div class="jumbotron">
+
+			<h1>About us</h1>
+			<p class="col-lg-offset-1 col-lg-10">We’re a small design studio based in Stockholm. We love designing for the web and have been doing so since 2015. We specialize in website design, illustration, as well as web application design and UX. Want your newborn company to look attractive to customers? Or do you want give your old site a face lift? We're here for you.   </p>
+
+	</div>
+	<div class="container-fluid">
+
+
+	<section class="about_section row">
+
+			<div class="about_first col-xs-offset-1 col-xs-10 col-md-10 col-lg-offset-2 col-lg-8">
+				<h2>Kalle Salomonsson</h2>
+				<p>Founder, lead illustrator, drummer</p>
+				<p>I’ve been designing and building websites since 2013. I have a bachelors degree in EPiServer developement but prefer front end designing for the Web. I believe in creating goal oriented design that not only look great but feel and react great as well.</p>
+				<figure>
+					<img src="pics/boy2.png" alt="boy" height="200">
+				</figure>
+			</div>
+	
+		<div class="about_second row col-xs-offset-1 col-xs-10 col-md-10 col-lg-offset-2 col-lg-8">
+				<h2>Felicia Norling</h2>
+				<p>Co-Founder, lead designer, couch potato</p>
+				<p>I’ve been designing and building websites since 2015. I have a have a history in working in the medical field but have a new found love for web development. Colors are a big deal.</p>
+				<figure>
+					<img src="pics/girl2.png" alt="girl" height="200">
+					</figure>
+			</div>
+			</section>
+		
+			<section class="skill_section row">
+				<div class="skill_line1 col-xs-4"></div><h2 class="col-xs-4">Our mad skills</h2><div class="skill_line2 col-xs-4"></div>
+				<p>we're great with this stuff</p>
+				
+				<figure>
+				<img id="myImage" alt="Skills" onclick="changeImage()" src="/gruppuppgift_webbsida/pics/skills-girl2.png" width="310" height="300"></figure>
+
+
+					
+				<script>
+					function changeImage() {
+						var image = document.getElementById('myImage');
+						if (image.src.match("skills-boy2")) {
+							image.src = "/gruppuppgift_webbsida/pics/skills-girl2.png";
+						} 
+						else {
+							image.src = "/gruppuppgift_webbsida/pics/skills-boy2.png";
+						}
+						}
+				</script>
+				
+				
+			</section>
+		
+		<footer class="footer_section row">
+			
+				<p>Copyright Duo Design 2016</p>
+			<a href="#Home-Page-Top">
+				<div class="top-button">
+						<img src="/gruppuppgift_webbsida/pics/top-button.png" alt="top button">
+				</div>
+				</a>
+		</footer>
+		
+		</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

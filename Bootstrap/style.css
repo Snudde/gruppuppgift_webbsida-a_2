@@ -1,0 +1,223 @@
+.nav {
+ background-color: #252525;
+    color:#ebebeb;
+}
+
+.nav a {
+ color: #ebebeb;   
+}
+
+
+.jumbotron {
+    height: 450px;
+    background: url(pics/start_bg_bild.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0 !important;
+    
+}
+
+.jumbotron h1 {
+    text-align: center;
+    color: #ebebeb !important;
+}
+
+.jumbotron p {
+    text-align: center;
+    color: #ebebeb;
+}
+
+.featured_project img {
+        height: 300px;
+    width: 90%;
+    margin-bottom: 20px;
+   
+}
+
+.featured {
+  background-color: #ebebeb; 
+    text-align: center;
+    height: 1200px
+}
+
+
+
+.featured h2 {
+  float:left;
+    width: 60%;
+    color: #5c8190;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+.projects_button {
+   
+        color: white;
+        font-size: 25px !important;
+        background: purple;
+        height: 80px;
+        width: 80%;
+        border-radius: 10px;
+        line-height: 55px !important;
+        
+    
+}
+
+
+.projects_button:hover {
+        background-color: #701e6f;
+}
+
+.specialize {
+    background-color: #5c8190;
+        background: linear-gradient(360deg, #07151d, #07151d 10%, #5c8190);
+    text-align: center;
+}
+
+.specialize_h2 {
+    float:left;
+    width: 60%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+    
+}
+
+.specialize h2 {
+    color: #ebebeb;
+}
+
+.specialize p {
+    color: #ebebeb;
+    font-size: 20px;
+}
+
+.specialize img {
+    width: 50%;
+    height: auto;
+}
+
+
+.featured_project_overlay {
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        text-align: center;
+        width: 100%;
+        margin-top: 10%;
+        color: #ebebeb;
+        text-shadow: 2px 2px black;
+}
+
+
+.line {
+        width: 20%;
+        display: inline-block;
+        float: left;
+        height: 2px;
+        box-sizing: border-box;
+        margin-top: 64px;
+        background-color: #5C8190;
+    
+}
+
+
+.line2 {
+        width: 20%;
+        display: inline-block;
+        float: left;
+        height: 2px;
+        box-sizing: border-box;
+        margin-top: 64px;
+        background-color: #ebebeb;
+}
+
+
+.footer_section {
+        background-color: #252525;
+        height: 60px;
+        width: 100%;
+        text-align: center;
+        line-height: 55px;
+        color: #ebebeb;
+}
+.footer_section p {
+        font-size: 12px;
+        float: left;
+        line-height: 60px;
+        margin-left: 5%;
+}
+
+.top-button {
+        height: 50px;
+        width: 50px;
+        background-color: purple;
+        border-radius: 100%;
+        float: right;
+        margin-right: 5%;
+        margin-top: 5px;
+}
+.top-button:hover {
+        background-color: #701e6f;
+}
+.top-button img {
+        z-index: 1;
+        height: 25px;
+        width: 25px;
+    margin-bottom: 10px;
+    
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .jumbotron {
+        height: 700px;
+}
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+      .jumbotron {
+        height: 700px;
+}
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+      .jumbotron {
+        height: 1190px;
+}
+    
+    .featured {
+        height: 700px;
+    }
+    
+    .featured_project {
+        margin-bottom: 70px;
+    }
+    
+    .projects_button {
+   
+        color: white;
+        font-size: 25px !important;
+        background: purple;
+        height: 80px;
+        width: 40%;
+        border-radius: 10px;
+        line-height: 55px !important;
+        
+    
+}
+
+}
